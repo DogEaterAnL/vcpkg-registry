@@ -6,6 +6,7 @@ vcpkg_from_git(
 vcpkg_install_msbuild(
     SOURCE_PATH "${SOURCE_PATH}"
     PROJECT_SUBPATH "Ex2-AjoutPort/Ex2-AjoutPort.sln"
+    USE_VCPKG_INTEGRATION
     TARGET Build
     PLATFORM ${VCPKG_TARGET_ARCHITECTURE}
 )
