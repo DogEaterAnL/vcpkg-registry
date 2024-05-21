@@ -5,7 +5,7 @@ vcpkg_from_git(
 )
 vcpkg_msbuild_install(
     SOURCE_PATH "${SOURCE_PATH}"
-    PROJECT_SUBPATH "build/MaLib2/MaLib2.sln"
+    PROJECT_SUBPATH "build/MaLib/MaLib.sln"
     TARGET MaLib
     PLATFORM ${VCPKG_TARGET_ARCHITECTURE}
 )
