@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/DogEaterAnL/vcpkg-registry/Malib2
-    REF 4a0167ba201c805255e544027dd274d04aa7677f
+    REF 4a0167ba201c805255e544027dd274d04aa7677d
 )
 vcpkg_msbuild_install(
     SOURCE_PATH "${SOURCE_PATH}"
