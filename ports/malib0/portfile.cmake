@@ -3,7 +3,7 @@ vcpkg_from_git(
     URL https://github.com/Aloatec/vcpkg-training
     REF ec2c283e07ab32381e61c0c5d8df1c16b2ffb3ad
 )
-vcpkg_msbuild_install(
+vcpkg_install_msbuild_(
     SOURCE_PATH "${SOURCE_PATH}"
     PROJECT_SUBPATH "Ex2-AjoutPort/Ex2-AjoutPort.sln"
     TARGET Build
